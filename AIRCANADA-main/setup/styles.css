@@ -1,0 +1,130 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; 
+  color: #000; 
+}
+
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#airCanadaLogo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#navbar button {
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#intro h1 {
+  color: #000; 
+}
+
+#benefits h2 {
+  color: #ff0000; 
+}
+
+#benefits ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#benefits li {
+  margin-bottom: 10px;
+}
+
+#counterSection {
+  margin-bottom: 20px;
+}
+
+#counterDisplay {
+  font-size: 24px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#contact button {
+  background-color: #000; 
+  color: #fff; 
+  padding: 10px;
+  cursor: pointer;
+}
+
+.employee-statement {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  
+}
+
+.employee-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+
+}
+h2 {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+
+.button {
+  background-color: #2d82d1; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgb(255, 64, 64); 
+  color: black; 
+  border: 2px solid #ffa0a0;
+}
+
+.button1:hover {
+  background-color: #ffa0a0;
+  color: white;
+}
